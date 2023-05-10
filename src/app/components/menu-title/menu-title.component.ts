@@ -6,5 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./menu-title.component.css']
 })
 export class MenuTitleComponent {
-  @Input() title: string = 'Title';
+  @Input() title: string = '<>TechBlog</>';
 }
