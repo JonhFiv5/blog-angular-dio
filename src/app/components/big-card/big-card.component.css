@@ -1,3 +1,7 @@
+a{
+    text-decoration: none;
+}
+
 .container__big-card {
     width: 400px;
     height: 500px;
@@ -20,6 +24,6 @@
     font-size: 25px;
 }
 
-.description__big-card > p {
+.description__big-card > p > a {
     color: grey;
 }
